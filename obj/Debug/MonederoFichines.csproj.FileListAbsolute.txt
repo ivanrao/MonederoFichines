@@ -1,0 +1,26 @@
+C:\Users\Ivan\Desktop\MonederoFichines\bin\Debug\MonederoFichines.exe.config
+C:\Users\Ivan\Desktop\MonederoFichines\bin\Debug\MonederoFichines.exe
+C:\Users\Ivan\Desktop\MonederoFichines\bin\Debug\MonederoFichines.pdb
+C:\Users\Ivan\Desktop\MonederoFichines\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ivan\Desktop\MonederoFichines\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ivan\Desktop\MonederoFichines\obj\Debug\MonederoFichines.csprojAssemblyReference.cache
+C:\Users\Ivan\Desktop\MonederoFichines\obj\Debug\MonederoFichines.FormQR.resources
+C:\Users\Ivan\Desktop\MonederoFichines\obj\Debug\MonederoFichines.Properties.Resources.resources
+C:\Users\Ivan\Desktop\MonederoFichines\obj\Debug\MonederoFichines.csproj.GenerateResource.cache
+C:\Users\Ivan\Desktop\MonederoFichines\obj\Debug\MonederoFichines.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\MonederoFichines\obj\Debug\MonederoFichines.csproj.CopyComplete
+C:\Users\Ivan\Desktop\MonederoFichines\obj\Debug\MonederoFichines.exe
+C:\Users\Ivan\Desktop\MonederoFichines\obj\Debug\MonederoFichines.pdb
+G:\GitHub Repositories\MonederoFichines\bin\Debug\MonederoFichines.exe.config
+G:\GitHub Repositories\MonederoFichines\bin\Debug\MonederoFichines.exe
+G:\GitHub Repositories\MonederoFichines\bin\Debug\MonederoFichines.pdb
+G:\GitHub Repositories\MonederoFichines\bin\Debug\Newtonsoft.Json.dll
+G:\GitHub Repositories\MonederoFichines\bin\Debug\Newtonsoft.Json.xml
+G:\GitHub Repositories\MonederoFichines\obj\Debug\MonederoFichines.csprojAssemblyReference.cache
+G:\GitHub Repositories\MonederoFichines\obj\Debug\MonederoFichines.FormQR.resources
+G:\GitHub Repositories\MonederoFichines\obj\Debug\MonederoFichines.Properties.Resources.resources
+G:\GitHub Repositories\MonederoFichines\obj\Debug\MonederoFichines.csproj.GenerateResource.cache
+G:\GitHub Repositories\MonederoFichines\obj\Debug\MonederoFichines.csproj.CoreCompileInputs.cache
+G:\GitHub Repositories\MonederoFichines\obj\Debug\MonederoFichines.csproj.CopyComplete
+G:\GitHub Repositories\MonederoFichines\obj\Debug\MonederoFichines.exe
+G:\GitHub Repositories\MonederoFichines\obj\Debug\MonederoFichines.pdb
