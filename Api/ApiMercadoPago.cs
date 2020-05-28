@@ -1,5 +1,6 @@
 ﻿using MonederoFichines.Modelos;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,9 +17,9 @@ namespace MonederoFichines.Api
         public static readonly string userId = "569771402";                                                                         // Vendedor
         public static readonly string accessToken = "APP_USR-2735819449801949-051723-03454e26f7f6c5415cea09a06471c775-569771402";   // Vendedor
         public static readonly int sponsorId = 571587697;                                                                           // Sponsor
-        public static readonly string cajaId = "caja3";
+        //public static readonly string cajaId = "caja3";
 
-        public async Task<string> GetSucursales(string userId, string accessToken)
+        public async Task<string> GetSucursales()
         {
             using (var httpClient = new HttpClient())
             {
@@ -33,9 +34,7 @@ namespace MonederoFichines.Api
                     {
                         var suc = response.Content.ReadAsStringAsync();
 
-                        var json = JsonConvert.DeserializeObject<dynamic>(suc.Result);
-
-                        return suc.Result;
+                        return JValue.Parse(suc.Result).ToString(Formatting.Indented);
                     }
 
                     return "No se pudo obtener la sucursal";
@@ -43,7 +42,7 @@ namespace MonederoFichines.Api
             }
         }
 
-        public async Task<string> GetCajas(string userId, string accessToken)
+        public async Task<string> GetCajas()
         {
             using (var httpClient = new HttpClient())
             {
@@ -55,7 +54,7 @@ namespace MonederoFichines.Api
                     {
                         var suc = response.Content.ReadAsStringAsync();
 
-                        return suc.Result;
+                        return JValue.Parse(suc.Result).ToString(Formatting.Indented);
                     }
 
                     return "No se pudo obtener las cajas";
@@ -63,7 +62,7 @@ namespace MonederoFichines.Api
             }
         }
 
-        public async Task<string> PostOrdenModeloAtendido()
+        public async Task<string> PostOrdenModeloAtendido(string cajaId)
         {
             using (var httpClient = new HttpClient())
             {
